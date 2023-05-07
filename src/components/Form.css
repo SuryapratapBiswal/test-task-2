@@ -1,0 +1,189 @@
+
+#container {
+    position: absolute;
+    margin: 10px 10px;
+    background-color: #F5F5F5;
+    height: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas:
+        'three three three two two one';
+    gap: 10px;
+    width: 97vw;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-areas:
+        'three three three all all all';
+    gap: 10px;
+    width: 97vw;
+}
+
+.wrapper3 {
+    display: grid;
+    grid-template-areas:
+        'three three three all all all';
+    gap: 10px;
+    width: 97vw;
+}
+
+.wrapper4 {
+    display: grid;
+    grid-template-areas:
+        'three three three all all all';
+    gap: 10px;
+    width: 97vw;
+}
+
+.wrapper,
+.wrapper2,
+.wrapper3,
+.wrapper4,
+.wrapper5,
+.wrapper6 {
+    margin-bottom: 2rem;
+}
+
+.name,
+.mobile,
+.guardian,
+.address {
+    grid-area: three;
+}
+
+.idType {
+    grid-area: all;
+}
+
+.age {
+    grid-area: two;
+}
+
+.sex {
+    grid-area: one;
+}
+
+
+#name {
+    width: 80%;
+    margin-left: 30px;
+}
+
+#age,
+#sex {
+    width: 60%;
+    margin-left: 30px;
+}
+
+#mobile,
+#idType,
+#guardian {
+    margin-left: 30px;
+}
+
+#idType {
+    width: 20%;
+}
+
+#idNumber {
+    margin-left: 20px;
+    width: 56%;
+}
+
+span {
+    color: red;
+}
+
+input,
+select {
+    border-radius: 5px;
+    padding: 7px 5px;
+}
+
+option {
+    color: black;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+#email,
+#em_number,
+#guardian_name,
+#address,
+#state,
+#city,
+#country,
+#pincode {
+    margin-left: 20px;
+}
+
+#guardian_name {
+    width: 42%;
+}
+
+#em_number {
+    width: 49%;
+}
+
+#email {
+    width: 78%;
+}
+
+#address {
+    width: 72%;
+}
+
+#state {
+    width: 79%;
+}
+
+#city {
+    width: 85%;
+}
+
+#country {
+    width: 25%;
+}
+
+#pincode {
+    width: 15%;
+}
+
+.wrapper6 label {
+    margin-right: 20px;
+}
+
+.wrapper6 :nth-child(2) {
+    margin-right: 45px;
+}
+
+.btn-group {
+    position: absolute;
+    right: 40px;
+}
+
+.btn-group button {
+    padding: 20px 20px;
+}
+
+#submit {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+#cancle {
+    background-color: white;
+    color: red;
+    margin-right: 40px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
